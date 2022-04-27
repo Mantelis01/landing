@@ -41,6 +41,14 @@ a{
     justify-content: space-between;
 }
 
+.landing h1{
+    font-size: 42px;
+}
+
+.landing p{
+    font-size: 18px;
+}
+
 .landing img{
     border: 25px;
     border-radius: 40px;
@@ -68,7 +76,7 @@ button{
     margin-top: 20px;
     align-items: center;
     justify-content: center;
-    gap: 63px;
+    gap: 80px;
     text-align: center;
 }
 
@@ -115,4 +123,11 @@ button{
     align-items: center;
     flex-direction: column;
     line-height: 32px;
+}
+
+footer{
+    text-align: center;
+    background: #1f2937;
+    color: white;
+    padding: 12px 100px 12px 100px;
 }
