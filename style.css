@@ -3,42 +3,72 @@
     margin: 0;
 }
 
-.name{
-    font-size: 24px;
-}
-
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 65px 24px 65px;
-    background: #827397;
+    background-color: #1f2937;
+    color: white;
+    padding: 12px 100px 12px 100px;
 }
 
-ul {
+ul{
     list-style-type: none;
+    gap: 16px;
     display: flex;
-    gap: 12px;
 }
 
-.hero{
-    background: #827397;
-    padding: 12px 65px 12px 65px;
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.landing{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    background: #1f2937;
+    padding: 100px;
     line-height: 42px;
+    color: white;
+    justify-content: space-between;
+}
+
+.landing img{
+    border: 25px;
+    border-radius: 40px;
 }
 
 button{
-    background: #363062;
     width: 85px;
     height: 40px;
-    border: 130px;
-    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    border: 25px;
+    border-radius: 50px;
+    color: white;
 }
 
-.image{
+.info{
+    padding: 42px 100px 42px 100px;
+    width: auto;
+}
+
+.cards{
     display: flex;
+    margin-top: 20px;
+    align-items: center;
     justify-content: center;
+    gap: 63px;
+    text-align: center;
+}
+
+.cards img{
+    aspect-ratio: 2/2;
+    border-radius: 20px;
+}
+
+.info h1{
+    text-align: center;
+    font-size: 42px;
 }
